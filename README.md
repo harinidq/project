@@ -135,7 +135,7 @@ with open(file_name,'rt')as fpt:
 
 print(classLabels)
 print(len(classLabels))
-img=cv2.imread('TRUCK.jpeg')
+img=cv2.imread('boat.jpeg')
 plt.imshow(img)
 plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
 model.setInputSize(320,320)
